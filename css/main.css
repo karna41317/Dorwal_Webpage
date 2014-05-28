@@ -73,7 +73,7 @@ strong, b, .lead, .main table th, blockquote, .more, .cta a, .tweet, ul.paginati
 
 /* Masthead Headings Color*/
 .cta, .cta h1, .cta h2, .cta h4, .cta h5, .cta h3, .nav a{
-	color: #fff;
+	color: #2B748B;
 }
 
 /* Masthead Background COlour */
@@ -172,7 +172,7 @@ footer .wrapper,  footer .tweet{
 
 
 
-
+  
 /* ==========================================================================
    Main Navigation Styles
    ========================================================================== */
@@ -186,7 +186,8 @@ footer .wrapper,  footer .tweet{
 }   
 .header-container nav{
 	float: right;
-	margin-top: 10px;
+	margin-top: 49px;
+	margin-right: 69px;
 }
 .header-container .nav li{
 	float: left;
@@ -980,7 +981,7 @@ select, input[type=radio], input[type=checkbox] {
 	float: left;
 }
 .fourths{
-	width: 22%;
+	width: 50%;
 	margin-right: 4%;
 	float: left;
 }
