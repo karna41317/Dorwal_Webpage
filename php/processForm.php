@@ -1,4 +1,5 @@
 <?php
+
 // Clean up the input values
 foreach ($_POST as $key => $value) {
   if (ini_get('magic_quotes_gpc'))
@@ -46,7 +47,7 @@ if ($errors) {
 
 // --------------------------------------//
 // Send the email // INSERT YOUR EMAIL HERE
-$to = "karan.antham@gmail.com";
+$to = "info@dorrwahl.se";
 // --------------------------------------//
 
 
