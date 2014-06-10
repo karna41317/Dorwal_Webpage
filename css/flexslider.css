@@ -22,17 +22,17 @@ html[xmlns] .slides {display: block;}
 .loading .flex-viewport {max-height: 300px;}
 .flexslider .slides {zoom: 1;}
 .flexslider-quote{
-	text-align: center;
+  text-align: center;
 }
 
 .flexslider li:before, .flexslider-quote li:before{
-	display: none;
+  display: none;
 }
 .flexslider ul, .flexslider ol, .flexslider-quote ul, .flexslider-quote ol{
-	margin-left: 0;
+  margin-left: 0;
 }
 .flexslider-quote h6{
-	margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 .carousel li {margin-right: 5px}
 
@@ -40,31 +40,31 @@ html[xmlns] .slides {display: block;}
 /* Direction Nav */
 .flex-direction-nav {*height: 0; height: 0;}
 ul.flex-direction-nav li{
-	position: static;
+  position: static;
 }
 .flex-direction-nav a { 
-	margin: -20px 0 0; 
-	display: block;
-	position: absolute; 
-	top: 50%; 
-	z-index: 10; 
-	cursor: pointer;  
-	opacity: 0; 
-	-webkit-transition: all .3s ease;
-	background-color: rgba(0, 0, 0, .2);
-	-webkit-border-radius: 100px;
-	border-radius: 100px;
-	color: #fff;
-	font: 24px 'bulletsregular';
-	padding: .2em .5em;
+  margin: -20px 0 0; 
+  display: block;
+  position: absolute; 
+  top: 50%; 
+  z-index: 10; 
+  cursor: pointer;  
+  opacity: 0; 
+  -webkit-transition: all .3s ease;
+  background-color: rgba(0, 0, 0, .2);
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  color: #fff;
+  font: 24px 'bulletsregular';
+  padding: .2em .5em;
 }
 .flex-direction-nav .flex-next { 
-	right: 15px;
-	padding: 0.3em 0.3em 0.15em 0.6em;
+  right: 15px;
+  padding: 0.3em 0.3em 0.15em 0.6em;
 }
 .flex-direction-nav .flex-prev {
-	left: 15px;
-	padding: 0.3em 0.4em 0.15em 0.5em; 
+  left: 15px;
+  padding: 0.3em 0.4em 0.15em 0.5em; 
 }
 .flexslider:hover .flex-next {opacity: 0.8; right: 8px;}
 .flexslider:hover .flex-prev {opacity: 0.8; left: 8px;}
@@ -89,17 +89,16 @@ ul.flex-direction-nav li{
   .flex-direction-nav .flex-next {opacity: 1; right: 8px;  }
 }
 
-.brand-carsuals{background: url("../img/brand-bg1.jpg") no-repeat 0px 0px;	background-size: cover;	min-height: 200px;}
-  #flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {	display:none;}
-  .nbs-flexisel-container {   position: relative;	max-width: 90%;	top: 69px;	margin: 0 auto;}
-  .nbs-flexisel-ul {    position:relative;    width:9999px;    margin:0px;    padding:0px;    list-style-type:none;       text-align:center;  }
-  .nbs-flexisel-inner {    overflow:hidden;    float:left;    width:100%;}
-  .nbs-flexisel-item {    float:left;    margin:0px;    padding:0px;    cursor:pointer;    position:relative;    line-height:0px;}
-  .nbs-flexisel-item img {    width: 100%;    cursor: pointer;    position: relative;    margin-top: 10px;    margin-bottom: 10px;    max-width:100px;    max-height:45px;}
+.brand-carsuals{background: url("../img/silver_logo_back.jpg") no-repeat 0px 0px;	background-size: cover;	min-height: 200px;}
+#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {	display:none;}
+.nbs-flexisel-container {   position: relative;	max-width: 90%;	top: 69px;	margin: 0 auto;}
+.nbs-flexisel-ul {    position:relative;    width:9999px;    margin:0px;    padding:0px;    list-style-type:none;       text-align:center;  }
+.nbs-flexisel-inner {    overflow:hidden;    float:left;    width:100%;}
+.nbs-flexisel-item {    float:left;    margin:0px;    padding:0px;    cursor:pointer;    position:relative;    line-height:0px;}
+.nbs-flexisel-item img {    width: 100%;    cursor: pointer;    position: relative;    margin-top: 10px;    margin-bottom: 10px;    max-width:100px;    max-height:45px;}
 
-  /*** Navigation ***/
-  .nbs-flexisel-nav-left,
-  .nbs-flexisel-nav-right {    width:50px;    height:92px;     position: absolute;    cursor: pointer;    z-index: 100;    opacity: 0.5;}
-  .nbs-flexisel-nav-left {    left: 10px;    background: url("../img/brand-slider-icons.png") no-repeat;}
-  .nbs-flexisel-nav-right {    right: 5px;    background: url("../img/brand-slider-icons.png") no-repeat -60px 0px;}
-  
+/*** Navigation ***/
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {    width:50px;    height:92px;     position: absolute;    cursor: pointer;    z-index: 100;    opacity: 0.5;}
+.nbs-flexisel-nav-left {    left: 10px;    background: url("../img/brand-slider-icons.png") no-repeat;}
+.nbs-flexisel-nav-right {    right: 5px;    background: url("../img/brand-slider-icons.png") no-repeat -60px 0px;}
