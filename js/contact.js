@@ -1,8 +1,5 @@
 $(function() {
-  // Validate the contact form
   $('#contactform').validate({
-	// Specify what the errors should look like
-	// when they are dynamically added to the form
 	errorElement: "label",
 	wrapper: "td",
 	errorPlacement: function(error, element) {
@@ -10,7 +7,6 @@ $(function() {
 	  error.wrap("<tr class='error'></tr>");
 
 	},
-	// Add requirements to each of the fields
 	rules: {
 	  name: {
 		required: true,
@@ -25,8 +21,6 @@ $(function() {
 		minlength: 10
 	  }
 	},
-	// Specify what error messages to display
-	// when the user does something horrid
 	messages: {
 	  name: {
 		required: "Please enter your name.",
@@ -41,7 +35,6 @@ $(function() {
 		minlength: jQuery.format("At least {0} characters required.")
 	  }
 	},
-	// Use Ajax to send everything to processForm.php
 	submitHandler: function(form) {
 	  $("#send").attr("value", "Sending...");
 	  $(form).ajaxSubmit({

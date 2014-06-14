@@ -40,7 +40,7 @@ $(document).ready(function() {
 
 
 
-  // BackStretch.js	 
+  // backstretch.min.js	 
   $("#masthead").backstretch("img/slides/1.jpg");
 
 

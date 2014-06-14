@@ -26,6 +26,7 @@ a.btn, input[type=button], nav a.active, input[type=submit], #menu-icon, ol.grap
 .flex-control-paging li a.flex-active, ul.pagination .left a:hover, ul.pagination .right a:hover, ul.paging a:hover span{	background-color: #fd542d; 	color: #fff;}
 
 /* Button on Hover*/
+nav ul,nav ol{list-style:none;list-style-image:none}
 a.btn:hover, input[type=button]:hover, nav a:hover, input[type=submit]:hover, #menu-icon.active, #nav ul, .nav-parent.hover a{	background-color: #129499; 	color: #fff;}
 @media only screen and (max-width: 768px) {	#nav{		background-color: #3c464c; 	}}
 
